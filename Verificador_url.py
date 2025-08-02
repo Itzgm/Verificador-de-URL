@@ -6,7 +6,7 @@ while True:
     
     headers = {
         "accept": "application/json",
-        "x-apikey": "db25e36607c89a18a5134ccebbe5223750c99d472789092aa162723920870b5c"  # Insira sua ApiKey do VirusTotal aqui
+        "x-apikey": ""# Insira sua ApiKey do VirusTotal aqui
     }
     
     data = {"url": site}
@@ -82,3 +82,4 @@ Timeout: {timeout}""")
     else:
         print("Encerrando...")
         break
+
